@@ -1,3 +1,3 @@
-# New page:
+# Stopwatch:
 
-[Click her](https://patrykwiecek95.github.io/shop/)
+[Click her](https://patrykwiecek95.github.io/stopwatch)
