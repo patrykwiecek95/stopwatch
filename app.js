@@ -31,10 +31,10 @@ const upDateTime = () => {
   m = Math.floor((elapsedTime % (1000 * 3600)) / (1000 * 60));
   s = Math.floor((elapsedTime % (1000 * 60)) / 1000);
   ms = elapsedTime % 1000;
-  hours.innerText = h <= 9 ? `0${h}` : `${h}`;
-  minutes.innerText = m <= 9 ? `0${m}` : `${m}`;
-  seconds.innerText = s <= 9 ? `0${s}` : `${s}`;
-  miliseconds.innerText = ms <= 9 ? `0${ms}` : `${ms}`;
+  hours.innerText = String(h).padStart(2, "0");
+  minutes.innerText = String(m).padStart(2, "0");
+  seconds.innerText = String(s).padStart(2, "0");
+  miliseconds.innerText = String(ms).padStart(3, "0");
 };
 
 const listTime = () => {
@@ -69,7 +69,7 @@ buttonReset.addEventListener("click", () => {
   hours.innerText = "00";
   minutes.innerText = "00";
   seconds.innerText = "00";
-  miliseconds.innerText = "00";
+  miliseconds.innerText = "000";
   timelistHtml.innerHTML = "";
   rank = 0;
   waitingToStart = false;

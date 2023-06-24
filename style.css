@@ -28,11 +28,11 @@ html, body {
   
   .counter {
     margin-right: 10px;
-    width: 80px;
+    width: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 30px;
   }
   
   .control-panel {
@@ -42,16 +42,17 @@ html, body {
   .start,
   .stop,
   .reset {
-    margin-right: 10px;
-    font-size: 50px;
+    margin-right: 5px;
+    font-size: 20px;
   }
   
-  .list {
-    margin-top: 10px;
+  .timeslist {
+
+    margin-top: 20px;
   }
 
   .row{
-    font-size: 50px;
+    font-size: 30px;
   }
 
 
