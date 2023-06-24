@@ -6,25 +6,28 @@ body{
     margin:0;
 }
 
-.board {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin:0;
+html, body {
     height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .stopwatch {
     display: flex;
-    list-style-type: none;
+    list-style: none;
     padding: 0;
-    margin: 0;
   }
   
   .counter {
     margin-right: 10px;
-    border: 2px solid black;
     width: 80px;
     display: flex;
     justify-content: center;
@@ -33,15 +36,21 @@ body{
   }
   
   .control-panel {
-    display: flex;
     margin-top: 10px;
   }
-  
+
   .start,
   .stop,
   .reset {
     margin-right: 10px;
-    border: 2px solid black;
+    font-size: 50px;
+  }
+  
+  .list {
+    margin-top: 10px;
+  }
+
+  .row{
     font-size: 50px;
   }
 
