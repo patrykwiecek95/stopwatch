@@ -1,0 +1,55 @@
+* {
+ box-sizing: border-box;
+}
+
+body{
+    margin:0;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    height: 100vh;
+  }
+  
+  .stopwatch {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .counter {
+    margin-right: 10px;
+    border: 2px solid black;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+  }
+  
+  .control-panel {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .start,
+  .stop,
+  .reset {
+    margin-right: 10px;
+    border: 2px solid black;
+    font-size: 50px;
+  }
+
+
+
+
+
+
+
+
+
